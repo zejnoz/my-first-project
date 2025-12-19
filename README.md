@@ -1,1 +1,8 @@
-# my-first-project
+# My First Python Project 🐍
+
+Простой Python-проект с палиндромом, калькулятором и Flask API.
+
+## 📦 Установка
+
+```bash
+pip install -e .

@@ -1,0 +1,22 @@
+# Игнорируем ненужные для Docker файлы
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv
+env
+.env
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+.vscode
+.idea
+*.log
+*.tmp
+*.temp
+dist
+build
+*.egg-info
