@@ -1,0 +1,86 @@
+# ----- ВИРТУАЛЬНЫЕ ОКРУЖЕНИЯ И ПЕРЕМЕННЫЕ СРЕДЫ -----
+# Папки виртуальных окружений
+venv/
+env/
+.venv/
+ENV/
+
+# Файлы с переменными среды 
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+secrets.ini
+
+# ----- КЭШ И БАЙТ-КОД PYTHON -----
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytype/
+
+# ----- РАСПРЕДЕЛЯЕМЫЕ ФАЙЛЫ / АРТЕФАКТЫ СБОРКИ -----
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.so
+.Python
+*.manifest
+*.spec
+
+# ----- ЛОГИ И БАЗЫ ДАННЫХ (локальные) -----
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# ----- НАСТРОЙКИ IDE -----
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Общие для редакторов
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ----- ФАЙЛЫ ПРОЕКТА (кэш, временные) -----
+instance/
+.webassets-cache
+.scrapy
+
+# ----- JUPYTER NOTEBOOK -----
+.ipynb_checkpoints
+
+# ----- ИНСТРУМЕНТЫ ТЕСТИРОВАНИЯ -----
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.tox/
+.cache/
+nosetests.xml
+
+# ----- ПАКЕТНЫЕ МЕНЕДЖЕРЫ (PIP) -----
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----- ОПЕРАЦИОННЫЕ СИСТЕМЫ -----
+# Временные файлы ОС
+*.tmp
+*.temp
